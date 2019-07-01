@@ -29,7 +29,7 @@ public class pessoaFisica extends Contribuinte {
 			return getRendaAnual() * 0.15 - gastoSaude * 0.5 ;
 		}
 		else {
-			return getRendaAnual() * 0.25 - gastoSaude * 0.50;
+			return getRendaAnual() * 0.25 - gastoSaude * 0.5;
 		}
 	}
 	
